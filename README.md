@@ -1,73 +1,96 @@
-# Welcome to your Lovable project
+# Dr. Chai Café - Brewed to Belong
 
-## Project info
+A modern, responsive café menu website built with React, TypeScript, and Tailwind CSS. Experience the authentic taste of traditional Indian chai in a contemporary café setting.
 
-**URL**: https://lovable.dev/projects/51fe679f-708c-4d33-9088-b8f15011f001
+## Features
 
-## How can I edit this code?
+- **Responsive Design**: Mobile-first approach that works seamlessly across all devices
+- **Interactive Menu**: Searchable, categorized menu system with beautiful cards
+- **About Us Section**: Company story, values, and mission
+- **Contact Information**: Complete contact details and WhatsApp ordering
+- **Modern UI**: Built with shadcn/ui components and custom design system
+- **Performance**: Optimized with Vite for fast development and builds
 
-There are several ways of editing your application.
+## Technologies Used
 
-**Use Lovable**
+- **Frontend**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS with custom design system
+- **UI Components**: shadcn/ui (Radix UI primitives)
+- **Icons**: Lucide React
+- **Forms**: React Hook Form with Zod validation
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/51fe679f-708c-4d33-9088-b8f15011f001) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (version 16 or higher)
+- npm or yarn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/MedamoniSharan/chai-brew-menu.git
+   cd chai-brew-menu
+   ```
 
-Follow these steps:
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. **Start development server**
+   ```bash
+   npm run dev
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+4. **Open your browser**
+   Navigate to `http://localhost:5173` to view the application
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Available Scripts
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## Project Structure
+
+```
+src/
+├── components/      # Reusable UI components
+├── pages/          # Page-level components
+├── data/           # Static data (menu items)
+├── hooks/          # Custom React hooks
+├── lib/            # Utility functions
+├── assets/         # Images and static files
+└── components/ui/  # shadcn/ui components
 ```
 
-**Edit a file directly in GitHub**
+## Design System
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The project features a custom design system with:
+- **Color Palette**: Warm café colors (mocha, caramel, honey)
+- **Typography**: Cormorant Garamond for headings, Inter for body text
+- **Components**: Consistent card designs, buttons, and navigation
+- **Animations**: Smooth transitions and hover effects
 
-**Use GitHub Codespaces**
+## Contributing
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## What technologies are used for this project?
+## License
 
-This project is built with:
+This project is licensed under the MIT License.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Contact
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/51fe679f-708c-4d33-9088-b8f15011f001) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- **Website**: Dr. Chai Café
+- **Location**: Vijayawada, Andhra Pradesh, India
+- **Phone**: +91 90000 13308
+- **Email**: dr.chaicafe@outlook.in
