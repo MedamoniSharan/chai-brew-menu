@@ -8,10 +8,10 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-4xl font-bold text-foreground mb-4">
-            Visit Us Today
+            Get In Touch
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Experience the warmth of Dr. Chai Café in the heart of Vijayawada
+            We'd love to hear from you. Visit us or reach out to place your order.
           </p>
         </div>
 
@@ -155,12 +155,37 @@ const Contact = () => {
 
         {/* Footer */}
         <div className="mt-16 pt-8 border-t border-border text-center">
-          <div className="font-heading text-2xl font-bold text-primary mb-2">
+          <div className="font-heading text-3xl font-bold text-primary mb-4">
             Dr. Chai Café
           </div>
-          <p className="text-muted-foreground text-sm mb-4">
+          <p className="text-muted-foreground text-lg mb-4">
             Brewed to Belong • Freshly Made Daily
           </p>
+          <p className="text-muted-foreground text-sm mb-6">
+            Experience the authentic taste of traditional Indian chai in a modern café setting
+          </p>
+          <div className="flex justify-center space-x-6 mb-6">
+            <a 
+              href="https://wa.me/919000013308" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary/80 transition-colors"
+            >
+              WhatsApp
+            </a>
+            <a 
+              href="mailto:dr.chaicafe@outlook.in"
+              className="text-primary hover:text-primary/80 transition-colors"
+            >
+              Email
+            </a>
+            <a 
+              href="tel:+919000013308"
+              className="text-primary hover:text-primary/80 transition-colors"
+            >
+              Call Us
+            </a>
+          </div>
           <p className="text-xs text-muted-foreground">
             © 2024 Dr. Chai Café. All rights reserved. • Prices inclusive of taxes where applicable.
           </p>

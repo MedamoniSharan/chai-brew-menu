@@ -42,7 +42,7 @@ const Hero = () => {
           <Button 
             variant="outline" 
             size="lg"
-            className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm px-8 py-4 text-lg transition-all duration-300"
+            className="border-white/30 bg-white/10 backdrop-blur-sm px-8 py-4 text-lg transition-all duration-300"
             onClick={() => window.open("https://wa.me/919000013308", "_blank")}
           >
             Order on WhatsApp
